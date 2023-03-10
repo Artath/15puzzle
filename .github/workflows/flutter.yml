@@ -1,9 +1,9 @@
 name: Upload release artefacts
 
-on:
-  push:
-    tags:
-      - 'v*'
+on: workflow_dispatch
+
+
+
 
 jobs:
   build:
